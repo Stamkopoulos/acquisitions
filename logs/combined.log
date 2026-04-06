@@ -1,2 +1,23 @@
 {"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [02/Apr/2026:11:42:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:12:06 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:12:11 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:12:26 +0000] \"GET /api HTTP/1.1\" 200 43 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:13:25 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:14:10 +0000] \"GET /api HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:14:14 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:14:23 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Apr/2026:12:14:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [03/Apr/2026:14:49:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [03/Apr/2026:14:50:49 +0000] \"POST /api/auth/sign-up?email=stam@gmail.com&name=stam&password=123123 HTTP/1.1\" 400 196 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User register succesfully: stam@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [03/Apr/2026:14:51:35 +0000] \"POST /api/auth/sign-up?email=stam@gmail.com&name=stam&password=123123 HTTP/1.1\" 201 98 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com created succesfully","service":"acquisitions-api"}
+{"level":"info","message":"User register succesfully: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [06/Apr/2026:09:41:40 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User adrian@gmail.com created succesfully","service":"acquisitions-api"}
+{"level":"info","message":"User register succesfully: adrian@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [06/Apr/2026:09:42:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
