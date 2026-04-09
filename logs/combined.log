@@ -25,3 +25,47 @@
 {"level":"info","message":"::1 - - [09/Apr/2026:14:08:40 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 110 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
 {"level":"info","message":"User logout succesfully","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [09/Apr/2026:14:09:10 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:50:12 +0000] \"GET /api/auth/health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:51:20 +0000] \"GET /api/auth/health HTTP/1.1\" 404 154 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:51:23 +0000] \"GET /api/auth/health HTTP/1.1\" 404 154 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:51:40 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:51:51 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:52:09 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:55:27 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:55:53 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:56:02 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:00:40 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:00:42 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:00:49 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:00:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:03:55 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:03:56 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:03:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:03:58 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:03:59 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:00 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:00 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:01 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:02 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"warn","message":"Bot detected but allowed (Postman in dev)","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:02 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [09/Apr/2026:15:04:46 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
