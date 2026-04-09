@@ -21,3 +21,7 @@
 {"level":"info","message":"User adrian@gmail.com created succesfully","service":"acquisitions-api"}
 {"level":"info","message":"User register succesfully: adrian@gmail.com","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [06/Apr/2026:09:42:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User login succesfully: adrian@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:08:40 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 110 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User logout succesfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Apr/2026:14:09:10 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
