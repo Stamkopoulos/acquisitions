@@ -4,6 +4,11 @@ import { slidingWindow } from '@arcjet/node';
 
 const securityMiddleware = async (req, res, next) => {
   try {
+    // DEV BYPASS
+    if (process.env.NODE_ENV !== 'production') {
+      return next();
+    }
+
     const role = req.user?.role || 'guest';
 
     let limit;

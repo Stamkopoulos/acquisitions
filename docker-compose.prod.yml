@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    env_file:
+      - .env.production
+    command: node src/index.js
+    ports:
+      - '${PORT:-3000}:${PORT:-3000}'
+    restart: unless-stopped
