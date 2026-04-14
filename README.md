@@ -1,9 +1,12 @@
 # Dockerized setup with Neon Local (development) and Neon Cloud (production)
+
 This project is configured to run in two modes:
+
 - Development: app + Neon Local proxy in Docker (`docker-compose.dev.yml`)
 - Production: app only in Docker, connected directly to Neon Cloud (`docker-compose.prod.yml`)
 
 ## Files added
+
 - `Dockerfile`
 - `docker-compose.dev.yml`
 - `docker-compose.prod.yml`
@@ -12,13 +15,16 @@ This project is configured to run in two modes:
 - `.env.production`
 
 ## How environment switching works
+
 Your app always reads `DATABASE_URL` from environment variables:
+
 - Development (`.env.development`): `DATABASE_URL=postgres://neon:npg@neon-local:5432/neondb`
 - Production (`.env.production`): `DATABASE_URL=postgres://...neon.tech...`
 
 `src/config/database.js` now auto-detects Neon Local hosts (`neon-local`, `localhost`, `127.0.0.1`) and configures the Neon serverless driver to use the local SQL endpoint (`/sql`) automatically.
 
 ## Development (local) with Neon Local
+
 1. Update `.env.development`:
    - `NEON_API_KEY`
    - `NEON_PROJECT_ID`
@@ -29,11 +35,13 @@ Your app always reads `DATABASE_URL` from environment variables:
    - `http://localhost:3000`
 
 In development, the app connects through Neon Local at:
+
 - `postgres://neon:npg@neon-local:5432/neondb`
 
 Neon Local creates ephemeral branches by default when the container starts and removes them when the container stops (`DELETE_BRANCH=true`).
 
 ## Production with Neon Cloud
+
 1. Update `.env.production`:
    - `DATABASE_URL=postgres://...neon.tech...`
 2. Start production app:
@@ -42,5 +50,6 @@ Neon Local creates ephemeral branches by default when the container starts and r
 Production runs without Neon Local proxy and connects directly to Neon Cloud.
 
 ## Notes
+
 - Keep production secrets in deployment environment variables (CI/CD secrets, cloud secrets manager, etc.).
 - Do not hardcode `DATABASE_URL` in code.
