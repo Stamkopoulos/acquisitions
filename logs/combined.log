@@ -113,3 +113,42 @@
 {"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:43:43 +0000] \"GET /api/users/2 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:48:01 +0000] \"GET /api/users/2 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:50:09 +0000] \"GET /api/users/2 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:55:55 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"error","message":"Error authenticating the user: Error: User not found","service":"acquisitions-api"}
+{"level":"error","message":"Signin error User not found","service":"acquisitions-api","stack":"Error: User not found\n    at authenticateUser (file:///app/src/services/auth.service.js:32:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signin (file:///app/src/controllers/auth.controller.js:66:18)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:56:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 31 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:56:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:56:30 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:56:39 +0000] \"GET /api/users/2 HTTP/1.1\" 401 72 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:57:32 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User giannis@stamk.com created succesfully","service":"acquisitions-api"}
+{"level":"info","message":"User register succesfully: giannis@stamk.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:57:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 104 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User login succesfully: giannis@stamk.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:57:50 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:58:00 +0000] \"POST /api/users/2 HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: giannis@stamk.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"acquisitions-api"}
+{"level":"info","message":"User adrian@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:58:07 +0000] \"GET /api/users/2 HTTP/1.1\" 200 194 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: giannis@stamk.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user giannis@stamk.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:10:58:29 +0000] \"DELETE /api/users/2 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@admin.pro created succesfully","service":"acquisitions-api"}
+{"level":"info","message":"User register succesfully: admin@admin.pro","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:11:00:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@admin.pro (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 1","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:11:01:30 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 111 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:11:29:25 +0000] \"DELETE /api/ HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:11:29:26 +0000] \"DELETE /api/ HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Apr/2026:11:29:29 +0000] \"GET /api/ HTTP/1.1\" 200 43 \"-\" \"PostmanRuntime/7.53.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:39:27 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:39:27 +0000] \"GET /api HTTP/1.1\" 200 43 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:39:27 +0000] \"GET /nonexsistent HTTP/1.1\" 404 28 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:47:35 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:47:35 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [14/Apr/2026:11:47:35 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
