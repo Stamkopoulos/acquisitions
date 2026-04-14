@@ -10,7 +10,7 @@ services:
       DATABASE_URL: ${DATABASE_URL}
     command: npm run dev
     ports:
-      - "${PORT:-3000}:${PORT:-3000}"
+      - '${PORT:-3000}:${PORT:-3000}'
     volumes:
       - .:/app
       - /app/node_modules
@@ -25,5 +25,5 @@ services:
       NEON_PROJECT_ID: ${NEON_PROJECT_ID}
       DELETE_BRANCH: ${DELETE_BRANCH:-true}
     ports:
-      - "5432:5432"
+      - '5432:5432'
     restart: unless-stopped
